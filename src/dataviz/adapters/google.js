@@ -116,7 +116,7 @@ module.exports = function(){
           done();
         }
         else {
-          google.load('visualization', '1.1', {
+          google.load('visualization', '1.2', {
               packages: ['corechart', 'table'],
               callback: function(){
                 done();
